@@ -31,8 +31,6 @@ Give a binary score 'yes' or 'no' score to indicate whether the document is rele
     relevant_docs = []
     for doc in docs:
         res = retrieval_grader.invoke({"document": doc, "question": question})
-        print(doc.page_content, '\n', '-'*50)
-        print(res,'\n')
         if res.binary_score == 'yes':
             relevant_docs.append(doc)
     return relevant_docs
