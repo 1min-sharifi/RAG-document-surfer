@@ -7,7 +7,7 @@ This repository implements a reliable Retrieval-Augmented Generation (RAG) syste
 The system follows this pipeline:
 
 1. **Document Retrieval**  
-   A vectorstore is built using the **HyPE** method to retrieve documents relevant to the query.
+   A vectorstore is built using the **Hypothetical Prompt Embeddings (HyPE)** method to retrieve documents relevant to the query.
 
 2. **Relevance Filtering**  
    An LLM filters out irrelevant documents to refine the context.
