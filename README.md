@@ -28,6 +28,7 @@ This project primarily uses **LangChain** and **Pydantic AI**. To install all de
 ```bash
 pip install -r requirements.txt
 ```
+The data needs to be in a data directory at the root of the repo.
 ## 🚀 Running the Code
 
 After installing the dependencies, run:
