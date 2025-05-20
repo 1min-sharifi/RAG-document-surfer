@@ -1,0 +1,6 @@
+pydantic
+langchain
+langchain_openai
+langchain_community
+faiss-cpu
+tqdm

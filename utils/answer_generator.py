@@ -6,8 +6,8 @@ LANGUAGE_MODEL = "gpt-4o"
 
 
 def generate_answer(docs, question):
-    system = """You are an assistant for question-answering tasks. Answer the question based upon your knowledge. 
-Use three-to-five sentences maximum and keep the answer concise."""
+    system = """You are an assistant for question-answering tasks. Answer the question based on the documents passed to you. 
+DO NOT use your information. Use three-to-five sentences maximum and keep the answer concise."""
     prompt = ChatPromptTemplate.from_messages(
         [
             ("system", system),
